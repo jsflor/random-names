@@ -1,0 +1,19 @@
+{
+  "name": "random-names",
+  "version": "1.0.0",
+  "description": "Random names generator",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "random",
+    "names",
+    "generator"
+  ],
+  "author": "Juan Sebastian Flor <sebastian-flor@hotmail.com> (https://github.com/jsflor)",
+  "license": "MIT",
+  "dependencies": {
+    "unique-random-array": "^2.0.0"
+  }
+}
