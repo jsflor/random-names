@@ -1,7 +1,5 @@
-'use strict';
-
-var expect = require('chai').expect;
-var names = require('.');
+const expect = require('chai').expect;
+const names = require('.');
 
 describe('random-names', function(){
     it('should have a list of all available names', function() {

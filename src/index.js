@@ -1,9 +1,9 @@
-'use strict';
+const uniqueRandomArray = require('unique-random-array');
+const names = require('./names.json');
 
-var uniqueRandomArray = require('unique-random-array');
-var names = require('./names.json');
-
-module.exports = {
+const mainExport = {
     all: names,
     random: uniqueRandomArray(names)
 }
+
+module.exports = mainExport;
