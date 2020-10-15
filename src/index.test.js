@@ -17,8 +17,8 @@ function isArrayOfStrings(array) {
     });
   }
   
-  function isIncludedIn(array) {
-    return function(item) {
-      return array.includes(item);
-    };
-  }
+function isIncludedIn(array) {
+  return function(item) {
+    return array.includes(item);
+  };
+}
