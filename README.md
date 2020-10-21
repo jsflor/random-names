@@ -13,13 +13,13 @@ Get random names.
 This package is distributed via npm:
 
 ```
-npm install random-names
+npm install random-names-generator
 ```
 
 ## Usage
 
 ```javascript
-var names = require('random-names');
+var names = require('random-names-generator');
 var allNames = names.all;
 var randomName = names.random();
 ```
