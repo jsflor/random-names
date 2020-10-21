@@ -1,6 +1,6 @@
 {
   "name": "random-names-generator",
-  "version": "1.0.1",
+  "version": "0.0.0-development",
   "description": "Random names generator",
   "main": "dist/index.js",
   "scripts": {
@@ -13,11 +13,12 @@
     "test": "cross-env NODE_ENV=test nyc mocha src/index.test.js",
     "lint": "eslint src",
     "validate": "npm-run-all --parallel test lint build",
-    "report-coverage": "cat ./coverage/lcov.info | codecov"
+    "report-coverage": "cat ./coverage/lcov.info | codecov",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jsflor/random-names.git"
+    "url": "https://github.com/jsflor/random-names.git"
   },
   "keywords": [
     "random",
@@ -53,7 +54,8 @@
     "npm-run-all": "2.3.0",
     "nyc": "7.1.0",
     "rimraf": "2.5.4",
-    "webpack": "1.13.1"
+    "webpack": "1.13.1",
+    "semantic-release": "^17.2.1"
   },
   "nyc": {
     "check-coverage": true,
