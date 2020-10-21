@@ -1,5 +1,5 @@
 {
-  "name": "random-names",
+  "name": "random-names-generator",
   "version": "1.0.0",
   "description": "Random names generator",
   "main": "dist/index.js",
