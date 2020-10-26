@@ -5,9 +5,11 @@
 [![MIT License](https://img.shields.io/npm/l/random-names-generator.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 
 # Random Name Generator
+
 Simplest way to generate random names in JavaScript projects.
 
 ## Installation
+
 NPM Installation:
 
 ```
@@ -17,17 +19,20 @@ NPM Installation:
 ## Usage
 
 ### JavaScript
+
 ```javascript
-    // Make sure to include package
-    const names = require('random-names-generator');
+// Make sure to include package
+const names = require("random-names-generator");
 
-    // Load entire array of names
-    const allNames = names.all;
+// Load entire array of names
+const allNames = names.all;
 
-    // Generate a single random name
-    const randomName = names.random();
+// Generate a single random name
+const randomName = names.random();
 ```
+
 ### React / React Hooks
+
 ```javascript
     // Include useState and useEffect hooks
     import {useState, useEffect} from 'react'
@@ -50,9 +55,9 @@ NPM Installation:
     // Return the randomly generated name
     return(
     	<>
-    		...
-    		<h1>Welcome {randomName}!</h1>
-    		...
+            ...
+            <h1>Welcome {randomName}!</h1>
+            ...
     	<>
     )
 ```
